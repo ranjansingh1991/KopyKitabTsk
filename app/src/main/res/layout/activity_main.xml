@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e1e1e1"
+    android:padding="16dp"
+    tools:context="in.semicolonindia.kopykitabtsk.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Size : 6(Uk Size)"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id ="@+id/btn_SixSize"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_bg_round"/>
+
+        <Button
+            android:id ="@+id/btn_SevenSize"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_bg_round"/>
+        <Button
+            android:id ="@+id/btn_EightSize"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_bg_round"/>
+        <Button
+            android:id ="@+id/btn_NineSize"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9"
+            android:layout_margin="6dp"
+            android:background="@drawable/button_bg_round"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_addCart"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Add to bag"
+        android:background="#A840C4D6"
+        android:layout_margin="50dp"/>
+
+</LinearLayout>
+
